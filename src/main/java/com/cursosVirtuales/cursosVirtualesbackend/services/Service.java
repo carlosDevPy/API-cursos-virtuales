@@ -1,9 +1,9 @@
-package com.cursosVirtuales.cursosVirtualesbackend.service;
+package com.cursosVirtuales.cursosVirtualesbackend.services;
 
 import java.util.List;
 
 public interface Service<T,ID> {
-    void add(T entity);
+    T add(T entity);
     void update(T entity);
 
     T delete (ID id);
